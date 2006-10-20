@@ -1,0 +1,12 @@
+--- openglut-0.6.3/doc/Makefile.am.orig	2004-09-11 04:51:36.000000000 +0200
++++ openglut-0.6.3/doc/Makefile.am	2006-10-20 11:21:43.529505000 +0200
+@@ -39,7 +39,5 @@
+ 	sh make-roff.sh
+ 
+ install: man-ascii
+-	$(INSTALL) -d $(mandir)/man3 man
+-	$(INSTALL) -d $(mandir)/cat3 cat3
+-	$(INSTALL) man/* $(mandir)/man3
+-	$(INSTALL) cat3/* $(mandir)/cat3
++	$(INSTALL) -d $(DESTDIR)$(mandir)/man3
++	$(INSTALL) man/* $(DESTDIR)$(mandir)/man3
