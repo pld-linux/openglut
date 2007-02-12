@@ -1,5 +1,5 @@
 Summary:	An open source evolution of the GLUT API
-Summary(pl.UTF-8):   Oparta na otwartych źródłach ewolucja API biblioteki GLUT
+Summary(pl.UTF-8):	Oparta na otwartych źródłach ewolucja API biblioteki GLUT
 Name:		openglut
 Version:	0.6.3
 Release:	1
@@ -35,7 +35,7 @@ GLUT-a.
 
 %package devel
 Summary:	Header files for openglut library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki openglut
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki openglut
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	OpenGL-GLU-devel
@@ -50,7 +50,7 @@ Pliki nagłówkowe biblioteki openglut.
 
 %package static
 Summary:	Static openglut library
-Summary(pl.UTF-8):   Statyczna biblioteka openglut
+Summary(pl.UTF-8):	Statyczna biblioteka openglut
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
