@@ -1,5 +1,5 @@
 Summary:	An open source evolution of the GLUT API
-Summary(pl):	Oparta na otwartych ¼ród³ach ewolucja API biblioteki GLUT
+Summary(pl.UTF-8):   Oparta na otwartych ÅºrÃ³dÅ‚ach ewolucja API biblioteki GLUT
 Name:		openglut
 Version:	0.6.3
 Release:	1
@@ -25,17 +25,17 @@ charter: OpenGLUT plans to extend the GLUT API in some ways, and to
 deprecate - and eventually delete - GLUT features that are felt to be
 poor fits.
 
-%description -l pl
-OpenGLUT to odga³êzienie starego pakietu freeglut. O ile celem
-freegluta jest prawie pe³na zgodno¶æ, nawet co do b³êdów, z bibliotek±
-GLUT, OpenGLUT ma swobodê dodawania ulepszeñ nie pasuj±cych do
-freegluta: planuje rozszerzyæ API GLUT-a na pewne sposoby, a traktowaæ
-jako niepo¿±dane (i ewentualnie usun±æ) pewnie ¼le pasuj±ce opcje
+%description -l pl.UTF-8
+OpenGLUT to odgaÅ‚Ä™zienie starego pakietu freeglut. O ile celem
+freegluta jest prawie peÅ‚na zgodnoÅ›Ä‡, nawet co do bÅ‚Ä™dÃ³w, z bibliotekÄ…
+GLUT, OpenGLUT ma swobodÄ™ dodawania ulepszeÅ„ nie pasujÄ…cych do
+freegluta: planuje rozszerzyÄ‡ API GLUT-a na pewne sposoby, a traktowaÄ‡
+jako niepoÅ¼Ä…dane (i ewentualnie usunÄ…Ä‡) pewnie Åºle pasujÄ…ce opcje
 GLUT-a.
 
 %package devel
 Summary:	Header files for openglut library
-Summary(pl):	Pliki nag³ówkowe biblioteki openglut
+Summary(pl.UTF-8):   Pliki nagÅ‚Ã³wkowe biblioteki openglut
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 Requires:	OpenGL-GLU-devel
@@ -45,19 +45,19 @@ Requires:	xorg-lib-libXxf86vm-devel
 %description devel
 Header files for openglut library.
 
-%description devel -l pl
-Pliki nag³ówkowe biblioteki openglut.
+%description devel -l pl.UTF-8
+Pliki nagÅ‚Ã³wkowe biblioteki openglut.
 
 %package static
 Summary:	Static openglut library
-Summary(pl):	Statyczna biblioteka openglut
+Summary(pl.UTF-8):   Statyczna biblioteka openglut
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static openglut library.
 
-%description static -l pl
+%description static -l pl.UTF-8
 Statyczna biblioteka openglut.
 
 %prep
